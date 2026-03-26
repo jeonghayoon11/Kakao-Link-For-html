@@ -43,7 +43,7 @@ kakaolink/
 ### 3. Web 플랫폼 등록
 
 - 앱 설정 → **플랫폼 → Web 플랫폼 등록**
-- 사이트 도메인 입력 (로컬 테스트: `http://localhost:8080`)
+- 사이트 도메인 입력 (로컬 테스트: `http://localhost:5500`)
 - 카카오링크는 등록된 도메인에서만 동작**합니다. `file://`로 직접 열면 안 됩니다.
 
 ### 4. (CASE 1 전용) 메시지 템플릿 만들기
@@ -66,7 +66,7 @@ kakaolink/
 python -m http.server 8080
 ```
 
-그 다음 브라우저에서 `http://localhost:8080/kakaolink.html` 접속
+그 다음 브라우저에서 `http://localhost:5500/kakaolink.html` 접속
 
 ---
 
