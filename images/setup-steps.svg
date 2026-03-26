@@ -1,0 +1,61 @@
+<svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect width="720" height="300" fill="#F8F9FF" rx="12"/>
+  <text x="360" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">사전 준비 과정 (Setup Steps)</text>
+
+  <!-- Step boxes -->
+  <!-- Step 1 -->
+  <rect x="20" y="50" width="130" height="64" rx="8" fill="#4A90D9" stroke="#2a6aab" stroke-width="1.5"/>
+  <text x="85" y="73" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">① 앱 등록</text>
+  <text x="85" y="90" text-anchor="middle" font-size="10" fill="#dde">Kakao Developers</text>
+  <text x="85" y="105" text-anchor="middle" font-size="10" fill="#dde">내 애플리케이션 추가</text>
+
+  <!-- Arrow -->
+  <line x1="152" y1="82" x2="178" y2="82" stroke="#888" stroke-width="1.8" marker-end="url(#a)"/>
+
+  <!-- Step 2 -->
+  <rect x="180" y="50" width="130" height="64" rx="8" fill="#4A90D9" stroke="#2a6aab" stroke-width="1.5"/>
+  <text x="245" y="73" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">② JS 키 복사</text>
+  <text x="245" y="90" text-anchor="middle" font-size="10" fill="#dde">앱 설정 → 요약정보</text>
+  <text x="245" y="105" text-anchor="middle" font-size="10" fill="#dde">JavaScript 키 확인</text>
+
+  <!-- Arrow -->
+  <line x1="312" y1="82" x2="338" y2="82" stroke="#888" stroke-width="1.8" marker-end="url(#a)"/>
+
+  <!-- Step 3 -->
+  <rect x="340" y="50" width="130" height="64" rx="8" fill="#4A90D9" stroke="#2a6aab" stroke-width="1.5"/>
+  <text x="405" y="73" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">③ Web 플랫폼 등록</text>
+  <text x="405" y="90" text-anchor="middle" font-size="10" fill="#dde">사이트 도메인 등록</text>
+  <text x="405" y="105" text-anchor="middle" font-size="10" fill="#dde">(예: localhost:8080)</text>
+
+  <!-- Arrow -->
+  <line x1="472" y1="82" x2="498" y2="82" stroke="#888" stroke-width="1.8" marker-end="url(#a)"/>
+
+  <!-- Step 4 -->
+  <rect x="500" y="50" width="200" height="64" rx="8" fill="#2ecc71" stroke="#1a9e52" stroke-width="1.5"/>
+  <text x="600" y="73" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">④ 템플릿 설정 (선택)</text>
+  <text x="600" y="90" text-anchor="middle" font-size="10" fill="#e8fff0">메시지 템플릿 도구에서</text>
+  <text x="600" y="105" text-anchor="middle" font-size="10" fill="#e8fff0">FEED 템플릿 생성 → ID 메모</text>
+
+  <!-- CASE boxes -->
+  <rect x="20" y="155" width="320" height="120" rx="8" fill="#FFF3CD" stroke="#e0a800" stroke-width="1.5"/>
+  <text x="180" y="178" text-anchor="middle" font-size="13" font-weight="bold" fill="#856404">CASE 1: sendCustom (미리 정의된 템플릿)</text>
+  <text x="180" y="198" text-anchor="middle" font-size="11" fill="#333">Kakao.init('JS키');</text>
+  <text x="180" y="215" text-anchor="middle" font-size="11" fill="#333">Kakao.Link.sendCustom({'{'}</text>
+  <text x="180" y="232" text-anchor="middle" font-size="11" fill="#333">  templateId: 템플릿ID</text>
+  <text x="180" y="249" text-anchor="middle" font-size="11" fill="#333">{'}'});</text>
+  <text x="180" y="265" text-anchor="middle" font-size="10" fill="#856404">→ 템플릿 도구에서 만든 ID 사용</text>
+
+  <rect x="380" y="155" width="320" height="120" rx="8" fill="#D1ECF1" stroke="#0c6a78" stroke-width="1.5"/>
+  <text x="540" y="178" text-anchor="middle" font-size="13" font-weight="bold" fill="#0c5460">CASE 2: sendDefault (코드로 직접 정의)</text>
+  <text x="540" y="198" text-anchor="middle" font-size="11" fill="#333">Kakao.init('JS키');</text>
+  <text x="540" y="215" text-anchor="middle" font-size="11" fill="#333">Kakao.Link.sendDefault({'{'}</text>
+  <text x="540" y="232" text-anchor="middle" font-size="11" fill="#333">  objectType, content,</text>
+  <text x="540" y="249" text-anchor="middle" font-size="11" fill="#333">  social, buttons ...</text>
+  <text x="540" y="265" text-anchor="middle" font-size="10" fill="#0c5460">→ JS 코드 안에서 바로 정의</text>
+
+  <defs>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#888"/>
+    </marker>
+  </defs>
+</svg>
