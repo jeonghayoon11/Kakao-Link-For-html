@@ -18,7 +18,7 @@ kakaolink/
 
 ## 동작 흐름
 
-![Kakao Link 동작 흐름](./flow-kakaolink.svg)
+![Kakao Link 동작 흐름](./images/flow-kakaolink.svg)
 
 사용자가 버튼을 클릭하면 `Kakao.Link` 함수가 호출되고, Kakao SDK가 카카오톡 공유 팝업을 띄워 줍니다. 친구를 선택하고 공유하기를 누르면 해당 친구의 카카오톡에 링크 메시지가 전달됩니다.
 
@@ -26,7 +26,7 @@ kakaolink/
 
 ## 사전 준비 과정
 
-![셋업 단계](./setup-steps.svg)
+![셋업 단계](./images/setup-steps.svg)
 
 ### 1. Kakao Developers에 앱 등록
 
